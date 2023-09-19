@@ -1,4 +1,4 @@
-import MegjelenitSor from "./MegjelenítSor.js";
+import MegjelenitSor from "./MegjelenítSorView.js";
 
 export class Megjelenit {
     #lista = [];
@@ -21,6 +21,7 @@ export class Megjelenit {
     let txt = "<tr>";
     this.#lista.forEach((elemek) => {
         new MegjelenitSor(elemek, this.elem);
+       
     });
   }
  
